@@ -1,0 +1,12 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+
+POST http://localhost:1337/techs
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImplZmZAY29tcGFueS5jb20iLCJzdWIiOiJqZWZmQGNvbXBhbnkuY29tIiwianRpIjoiZDc0Yzk3NjIiLCJyb2xlIjpbInNvZnR3YXJlLWNlbnRlciIsIm1hbmFnZXIiXSwiYXVkIjpbImh0dHA6Ly9sb2NhbGhvc3Q6NTQ4MTciLCJodHRwczovL2xvY2FsaG9zdDowIiwiaHR0cDovL2xvY2FsaG9zdDoxMzM3Il0sIm5iZiI6MTczODg2OTk1NCwiZXhwIjoxNzQ2NTU5NTU0LCJpYXQiOjE3Mzg4Njk5NTUsImlzcyI6ImRvdG5ldC11c2VyLWp3dHMifQ.dMiznwA7PHTdih9vwlHtxrHrno9nJVoHlAqbekuHZfk
+Content-Type: application/json
+
+{
+    "name": "Alice Johnson",
+    "email": "alice@techcompany.com",
+    "sub": "alice123"
+}
+
